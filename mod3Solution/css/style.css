@@ -52,10 +52,9 @@ header>.navbar li:nth-child(even) {
 
 .container-fluid > span {
     display: block;
-    text-align: center;
     font-size: 2em;
-    margin: 20px;
-    margin-top: auto;
+    margin: 70px;
+    margin-bottom: 25px;
 }
 
 
