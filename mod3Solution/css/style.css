@@ -1,1 +1,92 @@
---
+* {
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+
+/*Navbar*/
+
+header div.navbar-header>a.navbar-brand {
+    color: #001b1f;
+    font-style: italic;
+}
+
+.navbar>.container-fluid {
+    background-color: #baf7ff;
+    color: #951313;
+}
+
+
+/*Button collapsed*/
+
+.navbar-toggle {
+    background-color: #baf7ff;
+}
+
+#toggleButton:hover,
+#toggleButton:focus {
+    background-color: #8df2ff;
+}
+
+
+/*Menu elements*/
+
+header>.navbar li {
+    text-align: center;
+}
+
+header>.navbar li {
+    font-size: 1.8em;
+}
+
+header>.navbar li:nth-child(odd) {
+    background-color: #8df2ff;
+}
+
+header>.navbar li:nth-child(even) {
+    background-color: #baf7ff;
+}
+
+
+/*Titel Our Menu*/
+
+.container-fluid > span {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    margin: 20px;
+    margin-top: auto;
+}
+
+
+/*Content*/
+
+.content {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin: 10px
+}
+
+.color1 {
+    background-color: #8888c7;
+    color: white;
+}
+
+.color2 {
+    background-color: #eb9cf2;
+    color: #000000
+}
+
+.color3 {
+    background-color: #57ff7e;
+    color: #000000
+}
+
+div>p:nth-child(1) {
+    text-align: center;
+    font-size: 1.5em;
+    color: #ff0000;
+}
+
+div>p:nth-child(2) {}
